@@ -1,0 +1,3 @@
+- SELECT * FROM books
+- SELECT b.name nama_kategori, a.name nama_buku, a.stok FROM books a INNER JOIN categories b ON b.id = a.category_id WHERE category_id = 2
+- SELECT * FROM books WHERE id = 12
